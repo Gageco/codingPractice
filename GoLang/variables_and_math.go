@@ -37,5 +37,5 @@ func main() {
     2
 3
     4
-    5`) //formateed just as it looks
+    5`) //formated just as it looks
 }

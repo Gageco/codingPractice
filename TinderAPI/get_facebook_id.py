@@ -9,8 +9,8 @@ def get_access_token(email, password):
     s.open(FB_AUTH)
     ##submit login form##
     f = s.get_form()
-    f["pass"] = password
-    f["email"] = email
+    f["pass"] = ""
+    f["email"] = ""
     s.submit_form(f)
     ##click the 'ok' button on the dialog informing you that you have already authenticated with the Tinder app##
     f = s.get_form()

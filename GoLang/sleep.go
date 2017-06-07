@@ -14,4 +14,7 @@ func main() {
   time.Sleep(1 * time.Minute)
   fmt.Println("This Prints Out")
 
+  var waitTime int = 10
+  time.Sleep(time.Duration(waitTime) * time.Second)
+
 }
